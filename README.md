@@ -28,7 +28,7 @@ import numpy as np
 from summary_utils import matrix_summary
 
 writer = tf.summary.FileWriter('/tmp/summary_example')
-summary = matrix_summary.pb(tag="m1", data=np.random.rand(3, 2))
+summary = matrix_summary.pb(tag='m1', data=np.random.rand(3, 2))
 writer.add_summary(summary)
 writer.close()
 ```
