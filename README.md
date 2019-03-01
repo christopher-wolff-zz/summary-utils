@@ -23,6 +23,7 @@ The following is a simple example of how you may create a TensorFlow event file
 for a 3 by 2 matrix of random numbers.
 
 ```
+import tensorflow as tf
 import numpy as np
 from summary_utils import matrix_summary
 
